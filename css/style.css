@@ -93,6 +93,8 @@ other than navbar, carousel, banner & footer --*/
    overflow: hidden;
 }
 
+
+/*This is the main header/wicysbanner*/
 #header {
    display: -moz-flex;
    display: -webkit-flex;
@@ -107,7 +109,7 @@ other than navbar, carousel, banner & footer --*/
    -ms-justify-content: center;
    justify-content: center;
    position: relative;
-   height: 20em;
+   height: 30vh;
    background: url("../img/wicys_banner2.jpg") center center;
    background-size: cover;
    padding: 0;
@@ -377,7 +379,9 @@ img {
 /*============= CAROUSEL IMAGE SLIDER =============*/
 
 .carousel-inner {
-   max-height: 40rem!important;
+   /*changed height to adjust by viewport percentage*/
+   /*max-height: 40rem!important;*/
+   height: 70vh;
    box-shadow: 0 .65rem .65rem .1rem rgba(0, 0, 0, .15);
    padding-bottom: 40rem;
 }
